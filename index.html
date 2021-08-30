@@ -20,6 +20,9 @@
         background-size: cover;
         height: 100vh;
       }
+      footer p {
+        margin-top: 360px;
+      }
     </style>
   </head>
 
@@ -31,7 +34,7 @@
         </h1>
       </div>
       <form class="col-md-6 m-auto pt-5 pb-2">
-        <div class="input-group mb-3">
+        <div class="input-group mb-3 px-4">
           <input
             id="input-field"
             type="text"
@@ -63,7 +66,14 @@
       </div>
     </div>
     <!-- error message for blank input -->
-    <div id="error-message" class="text-light"></div>
+    <div
+      id="error-message"
+      class="text-light position-absolute bottom-0 start-50 translate-middle-x"
+    ></div>
+    <!-- footer -->
+    <footer>
+      <p class="text-center text-light">copyright&copy;Sakawat Hossain</p>
+    </footer>
     <!-- js part -->
     <script src="js/app.js"></script>
   </body>
